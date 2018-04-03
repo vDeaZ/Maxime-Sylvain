@@ -1,0 +1,23 @@
+procedure principale()
+  i = 1;
+  si (i>14)
+    j=1;
+  sinonsi(i>14)
+    j=9;
+  sinon
+    j=7;
+  finsi
+##########################
+  tantque(j==7)
+    j = j-1;
+  fintantque
+##########################
+  repeter
+    j=j+1;
+  jusqua(j>20)
+##########################
+  pour(j>5;j=j-1)
+      i=i+1;
+  finpour
+    
+finproc
